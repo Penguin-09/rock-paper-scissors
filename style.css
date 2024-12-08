@@ -1,0 +1,114 @@
+html {
+    background-color: #000347;
+    color: white;
+    text-align: center;
+    font-family: "andale mono", monospace;
+}
+
+h1 {
+    padding: 50px;
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.speler1,
+.speler2 {
+    border: 2px solid white;
+    padding: 20px;
+    background-color: white;
+    color: #000347;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#player1Select,
+#player2Select {
+    font-family: "andale mono", monospace;
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 13px;
+}
+
+input[type="submit"] {
+    font-family: "andale mono", monospace;
+    width: 350px;
+        height: 80px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 13px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.speler1result,
+.speler2result {
+    border: 2px solid white;
+    padding: 20px;
+    background-color: white;
+    color: #000347;
+    border-radius: 15px;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.resultContainer {
+    border: 2px solid white;
+    padding: 20px;
+    background-color: white;
+    color: #000347;
+    border-radius: 15px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.playAgain {
+    border: 2px solid white;
+    padding: 10px;
+    background-color: white;
+    color: #000347;
+    font-family: "andale mono", monospace;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 13px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.font {
+    font-family: "andale mono", monospace;
+    font-size: 25px;
+    color: #000347;
+}
+.startFormContainer {
+    border: 2px solid white;
+    padding: 10px;
+    background-color: white;
+    color: #000347;
+    font-family: "andale mono", monospace;
+    width: 600px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 13px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
